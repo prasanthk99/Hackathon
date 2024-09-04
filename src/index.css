@@ -1,0 +1,34 @@
+:root{
+  --light:#fff;
+  --light-blue:#003145;
+  --dark-blue:#002A3B;
+  --light-green:#44924C;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header-section,.challenges-section{
+  background-color: var(--light-blue);
+  color: var(--light);
+}
+
+.header-section>div:nth-child(2){
+  background-color: var(--dark-blue);
+}
+
+
+.card-img{
+  width: 50px;
+}
+
+ 
+.detail-page h4{
+  width: 150px;
+  border-bottom: 3px solid var(--light-green) ;
+  margin: 0;
+  padding: 12px 0;
+ }
